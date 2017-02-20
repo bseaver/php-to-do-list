@@ -3,6 +3,7 @@
 #### Epicodus PHP Week 1 Lab, 2/7/2017
 
 #### By Benjamin T. Seaver and Dan Lauby
+#### Revised to use DB by Benjamin Seaver
 
 ## Description
 
@@ -38,8 +39,32 @@ This lab is about experimenting with PHP and installing the silex and Twig frame
 * MIT
 
 ## Specifications
-<!-- * Setup Silex app
-* Create Job Class with title, description, and contact info
+* Silex and Twig Dependencies
+* Initial Silex framework
+* Twig forms
+* Tasks class
+* Create Tasks Class with description
+* Add Tasks functionality to routes
+
+* Adapt to MySQL database for persistent storage
+* Modify Tasks Class to use DB
+* Build TaskTest cases:
+    * PHPUnit fixture: test->setUp() does Tasks::deleteAll()
+    * PHPUnit fixture: test->tearDown does test->setUp();
+    * save: new_task->save() equals
+    * Save() "Hello"
+    * deleteAll()
+    * getAll()
+    * Verify count of 0
+    * Save() 3 "Get up", "Pack Lunch", "Go to School"
+    * getAll()
+    * Verify Count of three in DB
+    * Verify First is "Get up"
+    * Verify Last is "Go to School"
+    * Verify
+    * Verify retrieveById(2)
+    Retrieve all
+    V
 
 |Behavior|Input|Output|
 |--------|-----|------|
