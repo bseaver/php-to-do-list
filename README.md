@@ -13,6 +13,9 @@ This lab is about experimenting with PHP and installing the silex and Twig frame
 * See https://secure.php.net/ for details on installing _PHP_.  Note: PHP is typically already installed on Mac.
 * See https://getcomposer.org/ for details on installing _composer_.
 * See https://mamp.info/ for details on installing _MAMP_.
+* Use MAMP `http://localhost:8888/phpmyadmin/` and `db_setup.sql` to create a `to_do` database.
+* Use same MAMP website to copy to_do database to `to_do_test` database.
+* Use MAMP
 * Clone project
 * From project root, run > `composer install --prefer-source --no-interaction`
 * To run PHPUnit tests from root > `vendor/bin/phpunit tests`
