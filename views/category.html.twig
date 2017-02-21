@@ -3,7 +3,7 @@
     <title>To Do List</title>
 </head>
 <body>
-    <h1>{{ category.getName }}</h1>
+    <h1><a href="/categories/{{ category.getId }}/edit">Edit {{ category.getName }}</a></h1>
 
     {% if tasks is not empty %}
         <p>Here are the tasks:</p>
