@@ -1,18 +1,23 @@
 # Getting Started with PHP
 
-#### Epicodus PHP Week 1 Lab, 2/7/2017
+#### Epicodus PHP Week 1, 3 Lab, 2/7,21/2017
 
-#### By Benjamin T. Seaver and Dan Lauby
+#### By Ash Laidlaw, Benjamin T. Seaver and Dan Lauby
 #### Revised to use DB by Benjamin Seaver
 
 ## Description
 
-This lab is about experimenting with PHP and installing the silex and Twig frameworks
+This lab is about experimenting with PHP and installing the silex and Twig frameworks and extending to mySQL
 
 ## Setup/Installation Requirements
+* See https://secure.php.net/ for details on installing _PHP_.  Note: PHP is typically already installed on Mac.
+* See https://getcomposer.org/ for details on installing _composer_.
+* See https://mamp.info/ for details on installing _MAMP_.
 * Clone project
-* run `composer install --prefer-source --no-interaction` from project root
-* start PHP in web folder to use Silex
+* From project root, run > `composer install --prefer-source --no-interaction`
+* To run PHPUnit tests from root > `vendor/bin/phpunit tests`
+* From web folder in project, Start PHP > `php -S localhost:8000`
+* In web browser open `localhost:8000`
 
 ## Known Bugs
 * No known bugs
@@ -22,18 +27,19 @@ This lab is about experimenting with PHP and installing the silex and Twig frame
 
 ## Technologies Used
 * PHP
-* composer
+* MAMP
+* mySQL
+* Composer
+* PHPUnit
 * Silex
 * Twig
 * HTML
 * CSS
-* JavaScript
-* jQuery
 * Bootstrap
-* git
+* Git
 
 ## Copyright (c)
-* 2017 Benjamin T. Seaver and Dan Lauby
+* 2017 Ash Laidlaw, Benjamin T. Seaver and Dan Lauby
 
 ## License
 * MIT

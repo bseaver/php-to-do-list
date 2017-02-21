@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Generation Time: Feb 20, 2017 at 08:40 PM
+-- Generation Time: Feb 21, 2017 at 06:20 PM
 -- Server version: 5.5.42
 -- PHP Version: 5.6.10
 
@@ -33,7 +33,8 @@ CREATE TABLE `categories` (
 
 CREATE TABLE `tasks` (
   `id` bigint(20) unsigned NOT NULL,
-  `description` varchar(255) DEFAULT NULL
+  `description` varchar(255) DEFAULT NULL,
+  `category_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
