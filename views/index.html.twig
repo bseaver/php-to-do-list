@@ -7,7 +7,7 @@
 
     <p>Create a new category:</p>
 
-    <form action="/categories" method="post">
+    <form action="/post/categories" method="post">
         <label for="name">Category name:</label>
         <input id="name" name="name" type="text">
 
@@ -18,7 +18,7 @@
         <p>Here are all your categories:</p>
         <ul>
             {% for category in categories %}
-                <li><a href="/categories/{{ category.getId }}">{{ category.getName }}</a></li>
+                <li><a href="/get/categories/{{ category.getId }}">{{ category.getName }}</a></li>
             {% endfor %}
         </ul>
     {% else %}
