@@ -1,13 +1,13 @@
 # Getting Started with PHP
 
-#### Epicodus PHP Week 1, 3 Lab, 2/7,21/2017
+#### Epicodus PHP Week 1, 3, 4 Lab, 2/7,21/2017
 
-#### By Ash Laidlaw, Benjamin T. Seaver and Dan Lauby
+#### By Andrew Devlin, Benjamin T. Seaver and Ash Laidlaw, Dan Lauby
 #### Revised to use DB by Benjamin Seaver
 
 ## Description
 
-This lab is about experimenting with PHP and installing the silex and Twig frameworks and extending to mySQL
+This lab is about experimenting with PHP and many to many SQL relationships.
 
 ## Setup/Installation Requirements
 * See https://secure.php.net/ for details on installing _PHP_.  Note: PHP is typically already installed on Mac.
@@ -42,7 +42,7 @@ This lab is about experimenting with PHP and installing the silex and Twig frame
 * Git
 
 ## Copyright (c)
-* 2017 Ash Laidlaw, Benjamin T. Seaver and Dan Lauby
+* 2017  Andrew Devlin, Benjamin T. Seaver, Dan Lauby and Ash Laidlaw.
 
 ## License
 * MIT
