@@ -252,5 +252,19 @@
             //Assert
             $this->assertEquals([], $test_category->getTasks());
         }
+
+        function test_done_true()
+        {
+            // Arrange
+            $task = new Task('Testing 123');
+
+            // Act
+            $task->setDone(true);
+            $task->save();
+            $my_task = Task::find($task->getId());
+
+            // Assert
+            $this->assertEquals(true, $my_task->getDone());
+        }
     }
 ?>
